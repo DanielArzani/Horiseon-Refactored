@@ -1,0 +1,183 @@
+/* UNIVERSAL SELECTORS */
+* {
+    /* 1.Makes it so that total width and total height of all elements within document include border and padding 
+       2.Sets default values for padding and margin */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* SIMPLE SELECTORS */
+body {
+    /* Sets the background color of the document */
+    background-color: #d9dcd6;
+}
+
+a {
+    /* Alters the attributes of all links within document */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /* Sets the attributes for all paragraphs within document */
+    font-size: 16px;
+}
+
+h2 {
+    /* Sets the attributes for all h2's within the document */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    /* Sets the attributes for all h3's within the document */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* UTILITIES */
+.font-fam-one {
+    /* Added as to prevent repeat of this font-family across sections */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.font-fam-two {
+    /* Added as to prevent repeat of this font-family across sections */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+/* HEADER SECTION*/
+header {
+    /* Sets the style of the header section */
+    color: #ffffff;
+    background-color: #2a607c;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+
+/* Logo */
+header h1 {
+    /* Logo attributes */
+    display: inline-block;
+    font-size: 48px;
+}
+.seo {
+    /* Alters the text within the <span> nested within the logo */
+    color: #d9dcd6;
+}
+
+
+/* Navigation Bar */
+nav {
+    /* Attributes for the navigation bar container */
+    float: right;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+nav ul {
+    /* Alters default values of the <ul> within the navigation bar */
+    list-style-type: none;
+}
+
+nav ul li {
+    /* Sets the positioning of the navigation bar links */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/* Hero Background */
+.hero {
+    /* Alters to attributes of the Hero background image */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+
+/* CONTENT SECTION */
+.content-repeat{
+    /* Repeated attributes for the 3 divs within content section */
+    background-color: #0072bb;
+    color: #ffffff;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.content-img {
+    /* Repeated attribute for the images within content section divs */
+    max-height: 200px;
+}
+
+.content {
+    /* Sets attributes of content section container */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.float-left {
+    /* Positioning and spacing for content section images */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /* Positioning and spacing for content section images */
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* BENEFITS SECTION */
+.benefit-img{
+    /* Repeated values for benefit section images */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-divs {
+    /* Repeated content for benefit section divs */
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.benefits {
+    /* Sets attributes for the benefits section main container <aside> */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+
+/* FOOTER SECTION */
+footer {
+    /* Sets attributes for <footer> section */
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    
+}
+
+footer h2 {
+    /* Overwrites h2 attributes for footer <h2> */
+    font-size: 20px;
+    margin-bottom: 0px;
+}
