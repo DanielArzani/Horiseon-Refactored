@@ -24,7 +24,7 @@ Better accessebility
 
 https://danielarzani.github.io/Horiseon-Refactored/
 
-![Horiseon Refactored](../Horiseon-Refactored/Develop/assets/images/screenshot.png.md)
+![Horiseon Refactored](../Horiseon-Refactored/Develop/assets/images/screenshot.png)
 
 ## Contribution
 
