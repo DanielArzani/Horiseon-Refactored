@@ -24,7 +24,7 @@ Better accessebility
 
 https://danielarzani.github.io/Horiseon-Refactored/
 
-![Horiseon Refactored](../Horiseon-Refactored/Develop/assets/images/FireShot Capture 002 - Horiseon - danielarzani.github.io.png)
+![Horiseon Refactored](../Horiseon-Refactored/Develop/assets/images/screenshot.png)
 
 ## Contribution
 
